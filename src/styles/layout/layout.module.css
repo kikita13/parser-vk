@@ -1,0 +1,10 @@
+.content {
+  background-color: var(--bgcolor-primary);
+  height: 100%;
+}
+
+.children {
+  position: relative;
+  display: flex;
+  height: 80%;;
+}

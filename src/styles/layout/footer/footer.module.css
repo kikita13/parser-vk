@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--bgcolor-secondary);
+  padding: .6em;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 50px;
+  height: 10%;
+
+}
+
+.links {
+  text-decoration: none;
+  font-size: 16px;
+  gap: .8em;
+  display: flex;
+  align-items: center;
+
+}

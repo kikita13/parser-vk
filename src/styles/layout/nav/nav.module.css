@@ -1,0 +1,27 @@
+.nav{
+  align-items: center;
+  padding: .5em;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--bgcolor-secondary);
+  height: 10%;
+  min-height: 50px;
+}
+
+
+.links {
+  display: flex;
+  padding: 1em;
+  text-decoration: none;  
+  background-color: var(--bgcolor-primary);
+  border-radius: 1rem;
+  transition: .3s ease-in;
+  border: 1px solid var(--border-cards-color);
+  width: 5rem;
+  justify-content: center;
+}
+
+.links:hover {
+  border: 1px solid #66fcf1;
+ }
+

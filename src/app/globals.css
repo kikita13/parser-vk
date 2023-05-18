@@ -9,6 +9,11 @@
   font-size: 13px;
 }
 
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 
 :root {
   --bgcolor-primary: #141414;
@@ -23,3 +28,5 @@
   --icons-text-color: #939393;
   --active-color: #66fcf1;
 }
+
+

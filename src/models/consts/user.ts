@@ -21,3 +21,9 @@ export interface IUser {
   can_access_closed: boolean
   is_closed: boolean
 }
+
+export interface IUserInititalState {
+  status: string
+  users: IUser[]
+  error?: string
+}

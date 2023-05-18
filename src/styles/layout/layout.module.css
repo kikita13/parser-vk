@@ -1,10 +1,10 @@
 .content {
+  display: flex;
+  flex-direction: column;
   background-color: var(--bgcolor-primary);
   height: 100%;
 }
 
 .children {
-  position: relative;
-  display: flex;
-  height: 80%;;
+  flex-grow: 1;
 }
